@@ -22,7 +22,7 @@ const uploadFile = (fileName) => {
     // setting up s3 upload parameters
     const params = {
         Bucket: BUCKET_NAME,
-        Key: 'data_axel.jpg', // file name you want to save as
+       Key: 'testfakedataNov2020.dat', // file name you want to save as
         Body: fileContent
     };
 
@@ -36,4 +36,4 @@ const uploadFile = (fileName) => {
 };
 
 // Enter the file you want to upload here
-uploadFile('data_axel.jpg');
+uploadFile('OES20182C3.Detail49.dat');
