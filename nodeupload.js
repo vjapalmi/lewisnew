@@ -2,8 +2,8 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 
 // Enter copied or downloaded access id and secret here
-const ID = 'AKIAZV3LBSMMO2LNHCFT';
-const SECRET = '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';
+const ID = '';
+const SECRET = '';
 
 // Enter the name of the bucket that you have created here
 const BUCKET_NAME = 's3-lambda-api';;
